@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Quote Bot</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <!-- Add your site or application content here -->
+    <header>
+      <h1>Quote from a Bot</h1>
+      <p>
+        Seleziona un personaggio e vedi <br />
+        cosa ha da dirti!
+      </p>
+    </header>
+    <main>
+      <div class="container">
+        <div class="characters">
+          <div class="character" data-character="Ash Ketchum">
+            <img src="./img/ash-ketchum.png" />
+          </div>
+          <div class="character" data-character="Batman">
+            <img src="./img/batman.png" />
+          </div>
+          <div class="character" data-character="Homer Simpson">
+            <img src="./img/homer-simpson.png" />
+          </div>
+          <div class="character" data-character="Hermione Granger">
+            <img src="./img/hermione-granger.png" />
+          </div>
+          <div class="character" data-character="Gandalf">
+            <img src="./img/gandalf.png" />
+          </div>
+          <div class="character" data-character="Harley Quinn">
+            <img src="./img/harley-quinn.png" />
+          </div>
+          <div class="character" data-character="Shrek">
+            <img src="./img/shrek.png" />
+          </div>
+          <div class="character" data-character="Barbie">
+            <img src="./img/barbie.png" />
+          </div>
+          <div class="character" data-character="Minion">
+            <img src="./img/minion.png" />
+          </div>
+        </div>
+      </div>
+      <!-- loading -->
+      <div class="loading loading-hidden">
+        <img src="./img/loader.gif" alt="loading" />
+      </div>
+      <!-- end of loading -->
+      <!-- modal -->
+      <div class="modal modal-hidden">
+        <div class="modal-box">
+          <div class="modal-close">
+            <img src="./img/close.svg" alt="close" />
+          </div>
+          <div class="modal-content">
+            <h2>Homer Simpson</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <code
+              >Lorem ipsum dolor sit amet, consectetur adipisicing elit</code
+            >
+          </div>
+        </div>
+      </div>
+      <!-- end of modal -->
+    </main>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
